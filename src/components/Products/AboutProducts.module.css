@@ -1,0 +1,48 @@
+section{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    z-index: 10;
+    position: relative;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: -20rem;
+    text-align: center;
+    border-radius: 15px;
+    padding: 1rem 2rem;
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.25);
+    color: rgb(7 81 99);
+}
+
+section h4{
+    font-size: 1.8rem;
+    margin: 0.5rem;
+}
+
+section p {
+    font-size: 1.1rem;
+}
+
+section p:nth-child(3){
+    margin-top: 0;
+}
+
+
+@media (max-width: 700px) {
+    
+    section{
+        width: 100%;
+        margin-top: 2rem;
+        padding:0;
+        border-radius: 0;
+        padding: 1rem 0.7rem;
+        box-sizing: border-box;
+    }
+}
+
+@media (min-width: 715px) and (max-width: 1150px) {
+
+    section{
+        margin-top: -10rem;
+    }
+}

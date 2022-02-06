@@ -1,0 +1,32 @@
+
+.product{
+    color: rgb(8 110 135);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+    padding: 2rem 0;
+    gap: 2rem;
+}
+
+
+
+.price{
+    color: rgb(223, 191, 11);
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+
+@media (max-width: 850px) {
+    
+    
+.product{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+    padding: 2rem 0;
+    gap: 3rem;
+}
+}

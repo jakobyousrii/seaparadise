@@ -1,0 +1,37 @@
+.headerElement{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.navbar{
+    background-color: rgb(8 110 135);
+    color: white;
+    box-shadow: 5px 5px 6px rgba(0,0,0,0.25);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem 0;
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+}
+
+.jumbotron{
+    width: 100%;
+    clip-path: ellipse(100% 60% at 30% 20%);
+}
+
+
+@media (max-width: 700px){
+    .navbar{
+        flex-direction: column;
+    }
+    .jumbotron{
+        clip-path: none;
+        position: relative;
+        z-index: -2;
+        top: 6rem;
+        height: 10rem;
+    }
+}

@@ -1,0 +1,54 @@
+.cartButton{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: 0;
+    padding: 0 3rem;
+    background-color: white;
+    color: rgb(29 94 126);
+}
+
+.cartButton:hover, .cartButton:active{
+    transform: scale(1.1);
+    background-color: white;
+    color: rgb(29 94 126);
+}
+
+.icon {
+        width: 1.35rem;
+        height: 1.35rem;
+        margin-right: 0.3rem;
+      }
+    
+.countItems{
+    padding: 0.5rem 1.2rem;
+    background-color: rgb(34, 113, 155);
+    color: white;
+    border-radius: 50px;
+    margin-left: 0.5rem;
+    font-weight: 700;
+}
+
+.cartButton h4{
+    font-weight: 700;
+}
+
+.scaleButton{
+animation-name: onScale;
+animation-duration: 300ms;
+}
+
+@keyframes onScale {
+    0%{
+        transform: scale(1.0)
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1.0);
+    }
+}
+

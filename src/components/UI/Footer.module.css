@@ -1,0 +1,27 @@
+
+.footerSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 30vh;
+    background-color: rgb(4 81 100);
+    color: white;
+    margin-top: 2rem;
+}
+
+.Snetworks {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.Snetworks a{
+    color: lightyellow;
+    font-size: 2rem;
+}
+
+.Snetworks a:hover, .Snetworks a:active{
+
+    color: yellow;
+}

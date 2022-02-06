@@ -1,0 +1,60 @@
+li{
+    display: flex;
+    justify-content: space-between;
+    margin:0;
+    padding: 1.5rem 1rem;
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+}
+
+.price-amount{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+li h3{
+    margin-top: 0;
+}
+
+.action-buttons{
+padding: 0rem 1rem;
+display: flex;
+align-items: center;
+}
+
+.action-buttons button{
+    padding: 0.5rem 1rem; 
+    border-radius: 10px;
+    border: 2px solid rgb(8 110 135);
+    background-color: white;
+    color: rgb(8 110 135);
+    font-weight: 700;
+    font-size: 1rem;
+    cursor:pointer
+}
+
+.action-buttons button:hover, button:active{
+    background-color: rgb(8 110 135);
+    color: white;
+}
+
+.action-buttons button:nth-child(2){
+    margin-left: 1rem; 
+}
+
+.amountCount{
+    padding: 0.1rem 1rem;
+    border: 2px solid rgb(8 110 135);
+    border-radius: 50px;
+    font-weight: 700;
+    color: rgb(8 110 135);
+    background-color: ghostwhite;
+    margin-left: 1rem;
+    font-size: 0.8rem;
+}
+
+.price{
+    font-weight: 700;
+    color: goldenrod;
+    font-size: 1.3rem;
+}

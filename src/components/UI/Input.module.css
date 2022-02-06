@@ -1,0 +1,41 @@
+.amount{
+    font-weight: 700;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-right: 1rem;
+}
+
+.formInput{
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.50);
+    padding: 0.2rem;
+    font-weight: 700;
+}
+form button{
+    background-color: rgb(8 110 135);
+    color: white;
+    font-weight: 700;
+    border: 0;
+    padding: 0.5rem;
+    margin-top: 0.8rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+form button:hover, button:active{
+    transform: scale(1.1);
+    opacity: 0.9;
+    color: white;
+    outline: hidden;
+}
+
+.form-control{
+    display: flex;
+}
