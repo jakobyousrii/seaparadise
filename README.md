@@ -1,6 +1,6 @@
 # Seaparadise App
 
-<p>I've made this portfolio page completely in React.js, where I've used custom hooks, basic Form validation, GET and POST requests to a
+<p>I've made this portfolio page completely in React.js, where I've used custom hooks, Redux, basic Form validation, GET and POST requests to a
 dummy database created in Firebase and it's completely responsive.</p>
 
 
